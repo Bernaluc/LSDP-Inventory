@@ -8,14 +8,31 @@ import AddComponent from './pages/AddComponent';
 import ViewComponents from './pages/ViewComponents'
 import Test from './components/Test';
 import ViewAreas from './pages/ViewAreas';
+import AddWorker from './pages/AddWorkers';
+import ViewWorkers from './pages/ViewWorkers';
 
 
 function App() {
   return (
     <div className="App">
+      {/*nav bar*/}
       <TopBar />
+
+      {/*component pages*/}
       <AddComponent />
       <ViewAreas />
+
+     {/*worker pages*/}
+      <AddWorker />
+      <ViewWorkers />
+
+      {/*part pages*/}
+      <AddPart />
+      <ViewParts />
+
+      {/*area pages*/}
+      <AddArea />
+      {/*<ViewAreas />*/}
     </div>
   );
 }
