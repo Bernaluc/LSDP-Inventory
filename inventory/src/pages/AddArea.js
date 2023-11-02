@@ -1,10 +1,17 @@
-import React from "react";
-
 function AddArea(){
     return(
-    <div>
-        AddArea
-    </div>
+            <form>
+            <label>
+                Area ID:
+                <input type="text" name="area-id" />
+            </label>
+            <label>
+                Worker Notes:
+                <input type="text" name='area-notes' />
+            </label>
+            
+            <input type="submit" value="Submit" />
+            </form> 
     )
 }
 
