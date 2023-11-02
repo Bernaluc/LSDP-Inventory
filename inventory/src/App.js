@@ -1,15 +1,23 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import TopBar from './components/NavigationBar';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+
+import TopBar from './components/NavigationBar';
 
 import AddComponent from './pages/AddComponent';
 import ViewComponents from './pages/ViewComponents'
-import Test from './components/Test';
-import ViewAreas from './pages/ViewAreas';
+
 import AddWorker from './pages/AddWorkers';
 import ViewWorkers from './pages/ViewWorkers';
+
+import AddPart from './pages/AddPart';
+import ViewParts from './pages/ViewPart';
+
+import AddArea from './pages/AddArea';
+import ViewAreas from './pages/ViewAreas';
+
+import Test from './components/Test';
 
 
 function App() {
@@ -20,7 +28,7 @@ function App() {
 
       {/*component pages*/}
       <AddComponent />
-      <ViewAreas />
+      <ViewComponents />
 
      {/*worker pages*/}
       <AddWorker />
@@ -32,7 +40,7 @@ function App() {
 
       {/*area pages*/}
       <AddArea />
-      {/*<ViewAreas />*/}
+      <ViewAreas />
     </div>
   );
 }
