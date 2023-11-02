@@ -26,4 +26,4 @@ function ViewParts() {
     )
 }
 
-export default ViewWorkers;
+export default ViewParts;
