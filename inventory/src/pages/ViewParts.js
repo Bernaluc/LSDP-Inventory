@@ -1,11 +1,11 @@
 import React from "react";
 
-function AddWorker(){
+function AddParts(){
     return(
     <div>
-        Add Worker
+        Add parts
     </div>
     )
 }
 
-export default AddWorker;
+export default AddParts;
