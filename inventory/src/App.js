@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import AddComponent from './pages/AddComponent';
 import ViewComponents from './pages/ViewComponents'
 import Test from './components/Test';
+import ViewAreas from './pages/ViewAreas';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <TopBar />
       <AddComponent />
-
+      <ViewAreas />
     </div>
   );
 }
