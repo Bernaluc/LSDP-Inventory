@@ -1,10 +1,13 @@
 import React from "react";
+import Button from 'react-bootstrap/Button'
 
 function AddPart(){
     return(
+        <div className="add-page">
+            <h1>Add Part</h1>
             <form>
             <label>
-                Part ID:
+                Part Name:
                 <input type="text" name="part-id" />
             </label>
             <label>
@@ -27,9 +30,12 @@ function AddPart(){
                 Last Modified:
                 <input type="text" name='last-modified' />
             </label>
-            
             <input type="submit" value="Submit" />
             </form> 
+            <Button href='/view-parts' variant='secondary' size='lg'>
+                    View All Parts   
+                </Button> 
+        </div>
     )
 }
 

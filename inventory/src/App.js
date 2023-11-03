@@ -5,8 +5,6 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import TopBar from './components/NavigationBar';
 
-import AddArea from './pages/AddArea';
-import ViewAreas from './pages/ViewAreas';
 import AddComponent from './pages/AddComponent';
 import ViewComponents from './pages/ViewComponents'
 
@@ -19,8 +17,8 @@ import ViewParts from './pages/ViewPart';
 import AddArea from './pages/AddArea';
 import ViewAreas from './pages/ViewAreas';
 
-import Test from './components/Test';
-
+import AddEquipment from './pages/AddEquipment'
+import ViewEquipment from './pages/ViewEquipment'
 
 function App() {
   return (
@@ -46,22 +44,6 @@ function App() {
           <Route path='view-workers' element={<ViewWorkers/>} />
         </Routes>
       </BrowserRouter>
-
-      {/*component pages*/}
-      <AddComponent />
-      <ViewComponents />
-
-     {/*worker pages*/}
-      <AddWorker />
-      <ViewWorkers />
-
-      {/*part pages*/}
-      <AddPart />
-      <ViewParts />
-
-      {/*area pages*/}
-      <AddArea />
-      <ViewAreas />
     </div>
   );
 }
