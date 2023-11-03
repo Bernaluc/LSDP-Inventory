@@ -12,7 +12,6 @@ function ViewComponents() {
                         <th>Component ID</th>
                         <th>Component Description</th>
                         <th>Part ID</th>
-                        <th>Last Modified</th>
                         <th>Component Notes</th>
                     </tr>
                 </thead>
@@ -21,7 +20,6 @@ function ViewComponents() {
                         <td>PUM4350</td>
                         <td>Water Silo 1 Discharge Pump 1</td>
                         <td>LKH45</td>
-                        <td>10/20/23</td>
                         <td>(Component Notes)</td>
                         <td>
                             <Button>
@@ -38,7 +36,6 @@ function ViewComponents() {
                         <td>PUM4355</td>
                         <td>Water Silo 1 Discharge Pump 2</td>
                         <td>LKH45</td>
-                        <td>10/24/23</td>
                         <td>(Component Notes)</td>
                         <td>
                             <Button>
@@ -55,7 +52,6 @@ function ViewComponents() {
                         <td>PUM4355</td>
                         <td>Water Silo 1 Discharge Pump 1</td>
                         <td>LKH45</td>
-                        <td>10/20/23</td>
                         <td>(Component Notes)</td>
                         <td>
                             <Button>
