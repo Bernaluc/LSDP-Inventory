@@ -8,14 +8,18 @@ function ViewWorkers() {
             <Table striped bordered hover>
                 <thead>
                 <tr>
-                    <th>Worker Name</th>
-                    <th>Notes</th>
+                    <th>Manufacturer Name</th>
+                    <th>Manufacturer Email</th>
+                    <th>Manufacturer Phone</th>
+                    <th>Manufacturer Notes</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Curbina</td>
-                    <td>Carlos Bernal Urbina</td>
+                    <td>ABC Pipes</td>
+                    <td>abc@pipes.com</td>
+                    <td>+1 (555) 123-4567</td>
+                    <td>Specializes in consumer pipes.</td>
                     <td>
                             <Button>
                                 Edit
@@ -28,8 +32,10 @@ function ViewWorkers() {
                         </td>
                 </tr>
                 <tr>
-                    <td>Jramos</td>
-                    <td>James Ramos</td>
+                    <td>XYZ Screws</td>
+                    <td>info@xyzscrews.com</td>
+                    <td>+1 (555) 987-6543</td>
+                    <td>Known for high-quality screws.</td>
                     <td>
                             <Button>
                                 Edit
@@ -42,8 +48,10 @@ function ViewWorkers() {
                         </td>
                 </tr>
                 <tr>
-                    <td>Sbejarano</td>
-                    <td>Sophia Bejarano</td>
+                    <td>Tech Innovators Ltd.</td>
+                    <td>contact@techinnovators.com</td>
+                    <td>+1 (555) 789-0123</td>
+                    <td>Focuses on cutting-edge technology products and innovations.</td>
                     <td>
                             <Button>
                                 Edit
@@ -58,10 +66,10 @@ function ViewWorkers() {
                 </tbody>
             </Table>
             <Button href='/add-worker' variant='secondary' size='lg'>
-                Add New Worker
+                Add New Manufacturer
             </Button>
         </div>
     )
 }
 
-export default ViewWorkers;
+export default ViewManufacturers;
