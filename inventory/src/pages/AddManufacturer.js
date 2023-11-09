@@ -1,27 +1,35 @@
 import React from "react";
 import Button from 'react-bootstrap/Button'
 
-function AddWorker(){
+function AddManufacturer(){
     return(
         <div className="add-page">
-            <h1>Add Worker</h1>
+            <h1>Add Manufacturer</h1>
             <form>
             <label>
-                Worker Name:
-                <input type="text" name="worker-id" />
+                Manufacturer Name:
+                <input type="text" name="manufacturer-name" />
             </label>
             <label>
-                Worker Notes:
-                <input type="text" name='worker-notes' />
+                Manufacturer Email:
+                <input type="text" name='manufacturer-email' />
+            </label>
+            <label>
+                Manufacturer Phone:
+                <input type="text" name='manufacturer-phone' />
+            </label>
+            <label>
+                Manufacturer Notes:
+                <input type="text" name='manufacturer-notes' />
             </label>
             
             <input type="submit" value="Submit" />
             </form> 
             <Button href='/view-components' variant='secondary' size='lg'>
-                    View All Workers   
+                    View All Manufacturers  
                 </Button> 
         </div>
     )
 }
 
-export default AddWorker;
+export default AddManufacturer;
