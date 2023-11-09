@@ -3,18 +3,18 @@ import Button from 'react-bootstrap/Button'
 
 
 
-function AddArea(){
+function AddManual(){
     return(
         <div className="add-page">
             <form>
-            <h1> Add New Area</h1>
+            <h1> Add New Manual</h1>
             <label>
-                Area ID:
-                <input type="text" name="area-id" />
+                Manual Name:
+                <input type="text" name="manual-name" />
             </label>
             <label>
-                Worker Notes:
-                <input type="text" name='area-notes' />
+                Manual Link:
+                <input type="text" name='manual-link' />
             </label>
             
             <input type="submit" value="Submit" />
@@ -26,4 +26,4 @@ function AddArea(){
     )
 }
 
-export default AddArea;
+export default AddManual;
