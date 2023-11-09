@@ -8,14 +8,14 @@ import TopBar from './components/NavigationBar';
 import AddComponent from './pages/AddComponent';
 import ViewComponents from './pages/ViewComponents'
 
-import AddWorker from './pages/AddWorkers';
-import ViewWorkers from './pages/ViewWorkers';
+import AddManufacturer from './pages/AddManufacturer';
+import ViewManufacturers from './pages/ViewManufacturers';
 
 import AddPart from './pages/AddPart';
 import ViewParts from './pages/ViewPart';
 
-import AddArea from './pages/AddArea';
-import ViewAreas from './pages/ViewAreas';
+import AddManual from './pages/AddManual';
+import ViewManuals from './pages/ViewManuals';
 
 import AddEquipment from './pages/AddEquipment'
 import ViewEquipment from './pages/ViewEquipment'
@@ -37,11 +37,11 @@ function App() {
           <Route path='add-equipment' element={<AddEquipment/>} />
           <Route path='view-equipment' element={<ViewEquipment/>} />
 
-          <Route path='add-area' element={<AddArea/>} />
-          <Route path='view-areas' element={<ViewAreas/>} />
+          <Route path='add-manual' element={<AddManual/>} />
+          <Route path='view-manuals' element={<ViewManuals/>} />
 
-          <Route path='add-worker' element={<AddWorker/>} />
-          <Route path='view-workers' element={<ViewWorkers/>} />
+          <Route path='add-manufacturer' element={<AddManufacturer/>} />
+          <Route path='view-manufacturers' element={<ViewManufacturers/>} />
         </Routes>
       </BrowserRouter>
     </div>
